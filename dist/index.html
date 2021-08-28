@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
@@ -19,8 +21,36 @@
             <li class="px-4"><a href="">Contact</a></li>
         </ul>
     </nav>
-    <header class="">
-
+    <header class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen">
+        <div class="absolute top-0 w-full h-full bg-center bg-cover" style="background-image: url('img/pexels-cottonbro-5054213.jpg');">
+        <span class="absolute w-full h-full opacity-75 bg-black"></span></div>
+        <div class="container relative mx-auto" data-aos="fade-in">
+            <div class="items-center flex flex-wrap">
+              <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div class="pr-12">
+                  <h1 class="text-white font-semibold text-5xl">
+                    Hello I'm Leo Mhango
+                  </h1>
+                  <p class="mt-4 text-lg text-gray-300">
+                    I am a teenager from Malawi who build and develop morden deisigned websites. I also offer tech consultaion, database and spreedsheet management.
+                  </p>
+                  <a href="#contactMe"
+                    class="uppercase bg-transparent  hover:bg-blue-400 text-blue-400 font-semibold hover:text-gray-200 py-2 px-4 border border-blue-400 hover:border-transparent  inline-block mt-5 cursor-pointer">Contact Me</a>
+                </div>
+              </div>
+            </div>
+        </div>
     </header>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: false,
+    });
+    </script>
+
 </body>
 </html>
